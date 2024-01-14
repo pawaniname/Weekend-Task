@@ -19,7 +19,7 @@ pipeline {
                     // Use Node.js environment specified above
                     withEnv(["PATH+NODEJS=${tool 'NodeJS'}"]) {
                         // Install Node.js dependencies
-                        sh 'npm install'
+                        sh 'node .\\WeekendAssignment\\index.js'
                     }
                 }
             }
