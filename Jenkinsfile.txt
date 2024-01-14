@@ -39,7 +39,7 @@ pipeline {
                 script {
                     // Your deployment steps here
                     // For example, start your Node.js application
-                    sh 'npm start'
+                    sh 'node .\WeekendAssignment\index.js'
                 }
             }
         }
